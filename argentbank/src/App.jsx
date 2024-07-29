@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Connexion from './Pages/connexion-deconnexion';
-import User from './Pages/profil/ProfilePage';
+import Connexion from './Pages/Connexion/Connexion';
+import Profil from './Pages/Profil/Profil';
 import Error from './Pages/ErrorPages/ErrorPages';
 import Home  from './Pages/Home/Home';
 
@@ -11,7 +11,7 @@ function App(){
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/connexion-deconnexion" element={<Connexion />} />
-          <Route path="/profil" element={<User />} />
+          <Route path="/profil" element={<Profil />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </Router>

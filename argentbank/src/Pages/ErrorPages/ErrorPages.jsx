@@ -1,7 +1,7 @@
 import React from 'react';
-import './ErrorPage.css';
+import './ErrorPages.css';
 
-const ErrorPage = () => {
+const ErrorPages = () => {
   return (
     <div className="error-page">
       <header className="header">
@@ -26,4 +26,4 @@ const ErrorPage = () => {
   );
 };
 
-export default ErrorPage;
+export default ErrorPages;

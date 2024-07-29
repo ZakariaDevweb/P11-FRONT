@@ -1,7 +1,7 @@
 import React from 'react';
-import './ProfilePage.css';
+import './Profil.css';
 
-const ProfilePage = () => {
+const Profil = () => {
   return (
     <div className="profile-page">
       <header className="header">
@@ -49,4 +49,4 @@ const ProfilePage = () => {
   );
 };
 
-export default ProfilePage;
+export default Profil;
