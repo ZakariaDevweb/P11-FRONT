@@ -7,13 +7,14 @@ import Home  from './Pages/Home/Home';
 function App(){ 
     return (
         <Router>
-       
+       <header/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/connexion-deconnexion" element={<Connexion />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="*" element={<Error />} />
         </Routes>
+        <footer/>
       </Router>
     )
 }
