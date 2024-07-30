@@ -4,6 +4,7 @@ import '../../assets/styles/styles.css';
 const Home = () => {
   return (
     <div className="home-page">
+      {/* Header */}
       <header className="header">
         <div className="logo">
           <h1>ARGENTBANK</h1>
@@ -14,7 +15,7 @@ const Home = () => {
       </header>
       <main className="main-content">
         <div className="promo">
-          <img src="plant.jpg" alt="Growing plant" className="promo-img" />
+          <img src="brank-tree.jpeg" alt="Growing plant" className="promo-img" />
           <div className="promo-text">
             <h2>No fees.</h2>
             <p>No minimum deposit. High interest rates.</p>
