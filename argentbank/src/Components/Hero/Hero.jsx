@@ -6,6 +6,14 @@ const Text = ({ text }) => <p className="text">{text}</p>;
 const Hero = ({ title, subtitles, text }) => {
   return (
     <div className="hero">
+       <div className="hero">
+          <img src="brank-tree.jpeg" alt="Growing plant" className="hero-img" />
+          <div className="hero-text">
+            <h2>No fees.</h2>
+            <p>No minimum deposit. High interest rates.</p>
+            <p>Open a savings account with Argent Bank today!</p>
+          </div>
+        </div>
       <section className="hero-content">
         <Title text={title} />
         {subtitles.map((subtitle, index) => (
