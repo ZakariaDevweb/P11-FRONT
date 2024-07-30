@@ -14,14 +14,16 @@ const Home = () => {
         </div>
       </header>
       <main className="main-content">
-        <div className="promo">
-          <img src="brank-tree.jpeg" alt="Growing plant" className="promo-img" />
-          <div className="promo-text">
+        {/* Hero */}
+        <div className="hero">
+          <img src="brank-tree.jpeg" alt="Growing plant" className="hero-img" />
+          <div className="hero-text">
             <h2>No fees.</h2>
             <p>No minimum deposit. High interest rates.</p>
             <p>Open a savings account with Argent Bank today!</p>
           </div>
         </div>
+        {/* features */}
         <div className="features">
           <div className="feature">
             <div className="icon chat-icon"></div>
@@ -40,6 +42,7 @@ const Home = () => {
           </div>
         </div>
       </main>
+      {/* footer  */}
       <footer className="footer">
         <p>Copyright 2020 Argent Bank</p>
       </footer>
