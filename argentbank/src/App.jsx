@@ -16,7 +16,7 @@ function App(){
           <Route path="/profil" element={<Profil />} />
           <Route path="*" element={<Error />} />
         </Routes>
-        <Hero/>
+      
         <Footer/>
       </Router>
     )
