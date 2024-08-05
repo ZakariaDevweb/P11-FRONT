@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../assets/styles/styles.css';
-
 const Home = () => {
   return (
     <div className="features">

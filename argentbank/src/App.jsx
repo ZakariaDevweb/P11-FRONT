@@ -3,18 +3,21 @@ import Connexion from './Pages/Connexion/Connexion';
 import Profil from './Pages/Profil/Profil';
 import Error from './Pages/ErrorPages/ErrorPages';
 import Home  from './Pages/Home/Home';
-
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
+import Hero from './Components/Hero/Hero';
 function App(){ 
     return (
         <Router>
-       <header/>
-        <Routes>
+       <Header/>
+        <Routes>    
           <Route path="/" element={<Home />} />
           <Route path="/connexion-deconnexion" element={<Connexion />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="*" element={<Error />} />
         </Routes>
-        <footer/>
+        <Hero/>
+        <Footer/>
       </Router>
     )
 }
