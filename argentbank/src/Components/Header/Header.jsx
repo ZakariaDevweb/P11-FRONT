@@ -1,6 +1,6 @@
 import Logo from '../../assets/img/argentBankLogo.png';
 import '../../assets/styles/styles.css';
-import '../../assets/img';
+
 const Header = () => {
     return (
 
