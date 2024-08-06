@@ -1,15 +1,26 @@
 import React from 'react';
 import '../../assets/styles/styles.css';
-
 const Header = () => {
     return (
+
+      
         <header className="header">
-        <div className="logo">
-          <h1>ARGENTBANK</h1>
-        </div>
-        <div className="sign-in">
-          <a href="/login">Sign In</a>
-        </div>
+        <nav className="main-nav">
+      <a class="main-nav-logo" href="./index.html">
+        <img
+          className="main-nav-logo-image"
+          src="./assets/img/argentBankLogo.png"
+          alt="Argent Bank Logo"
+        />
+        <h1 className="sr-only">Argent Bank</h1>
+      </a>
+      <div>
+        <a className="main-nav-item" href="./sign-in.html">
+          <i className="fa fa-user-circle"></i>
+          Sign In
+        </a>
+      </div>
+    </nav>
        </header>
        
     );
