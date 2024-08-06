@@ -1,12 +1,15 @@
 import React from 'react';
 import '../../assets/styles/styles.css';
+import icon1 from '../../assets/img/icon-chat.png';
+import icon2 from '../../assets/img/icon-money.png';
+import icon3 from '../../assets/img/icon-security.png';
 
 
 const Features = () => {
     return (
 <div className="features">
 <div className="feature-item">
-          <img src="./img/icon-chat.png" alt="Chat Icon" class="feature-icon" />
+          <img src={icon1} alt="Chat Icon" class="feature-icon" />
           <h3 className="feature-item-title">You are our #1 priority</h3>
           <p>
             Need to talk to a representative? You can get in touch through our
@@ -15,7 +18,7 @@ const Features = () => {
         </div>
         <div className="feature-item">
           <img
-            src="./img/icon-money.png"
+            src={icon2}
             alt="Chat Icon"
             className="feature-icon"
           />
@@ -26,7 +29,7 @@ const Features = () => {
         </div>
         <div className="feature-item">
           <img
-            src="./img/icon-security.png"
+            src={icon3}
             alt="Chat Icon"
             className="feature-icon"
           />

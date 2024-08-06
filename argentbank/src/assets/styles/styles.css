@@ -151,6 +151,7 @@ html {
   .feature-item {
     flex: 1;
     padding: 2.5rem;
+    text-align: center;
   }
   
   .feature-item-title {
