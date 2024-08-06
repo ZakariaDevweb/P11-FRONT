@@ -1,15 +1,16 @@
-import React from 'react';
+import Logo from '../../assets/img/argentBankLogo.png';
 import '../../assets/styles/styles.css';
+import '../../assets/img';
 const Header = () => {
     return (
 
       
         <header className="header">
         <nav className="main-nav">
-      <a class="main-nav-logo" href="./index.html">
+      <a className="main-nav-logo" href="./index.html">
         <img
           className="main-nav-logo-image"
-          src="./assets/img/argentBankLogo.png"
+          src={Logo}
           alt="Argent Bank Logo"
         />
         <h1 className="sr-only">Argent Bank</h1>
