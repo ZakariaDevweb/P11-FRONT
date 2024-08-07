@@ -4,7 +4,7 @@ const Compte = ({title, amount,description}) => {
    
     return (
 
-        <section className="MockedData">
+        <section className="account">
         <div className="account-content-wrapper">
           <h3 className="account-title">{title}</h3>
           <p className="account-amount">{amount}</p>
