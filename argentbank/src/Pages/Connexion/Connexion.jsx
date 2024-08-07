@@ -3,30 +3,32 @@ import '../../assets/styles/styles.css';
 
 const Connexion = () => {
   return (
-    <div className="login-page">
-      <main className="main-content bg-dark">
-        <div className="login-form-container">
-          <form className="login-form">
-            <h2>Sign In</h2>
-            <div className="form-group">
-              <label htmlFor="username">Username</label>
-              <input type="text" id="username" name="username" />
-            </div>
-            <div className="form-group">
-              <label htmlFor="password">Password</label>
-              <input type="password" id="password" name="password" />
-            </div>
-            <div className="form-group remember-me">
-              <input type="checkbox" id="remember-me" />
-              <label htmlFor="remember-me">Remember me</label>
-            </div>
-            <button type="submit" className="sign-in-button">Sign In</button>
-          </form>
-        </div>
-      </main>
-     
-    </div>
-  );
+    <main className="main bg-dark">
+        <section className="sign-in-content">
+            <i className="fa fa-user-circle sign-in-icon"></i>
+            <h1>Sign In</h1>
+            {/* Lance la fonction au submit (bouton cliqué) */}
+            <form >
+                <div className="input-wrapper">
+                    <label htmlFor="username">Username</label><input type="text" id="username" />
+                </div>
+                <div className="input-wrapper">
+                    <label htmlFor="password">Password</label><input type="password" id="password" />
+                </div>
+                <div className="input-remember">
+                    <input type="checkbox" id="remember-me" /><label htmlFor="remember-me">Remember me</label>
+                </div>
+                <button type="submit" className="sign-in-button">Sign In</button>
+            </form>
+        </section>
+    </main>
+);
 };
+ 
+       
+     
+   
+
+
 
 export default Connexion;
