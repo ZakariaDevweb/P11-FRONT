@@ -12,7 +12,7 @@ function App(){
        <Header/>
         <Routes>    
           <Route path="/" element={<Home />} />
-          <Route path="/connexion-deconnexion" element={<Connexion />} />
+          <Route path="/sign-in" element={<Connexion />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="*" element={<Error />} />
         </Routes>
