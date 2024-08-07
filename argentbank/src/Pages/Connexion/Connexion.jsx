@@ -4,14 +4,6 @@ import '../../assets/styles/styles.css';
 const Connexion = () => {
   return (
     <div className="login-page">
-      <header className="header">
-        <div className="logo">
-          <h1>ARGENTBANK</h1>
-        </div>
-        <div className="sign-in">
-          <a href="/login">Sign In</a>
-        </div>
-      </header>
       <main className="main-content">
         <div className="login-form-container">
           <form className="login-form">
@@ -32,9 +24,7 @@ const Connexion = () => {
           </form>
         </div>
       </main>
-      <footer className="footer">
-        <p>Copyright 2020 Argent Bank</p>
-      </footer>
+     
     </div>
   );
 };
