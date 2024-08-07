@@ -4,7 +4,7 @@ import '../../assets/styles/styles.css';
 const Connexion = () => {
   return (
     <div className="login-page">
-      <main className="main-content">
+      <main className="main-content bg-dark">
         <div className="login-form-container">
           <form className="login-form">
             <h2>Sign In</h2>
