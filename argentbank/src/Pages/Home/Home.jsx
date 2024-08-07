@@ -38,7 +38,16 @@ texte: "We use top of the line encryption to make sure your data and money is al
 <div>
 <Hero/>
 <div className="features">
-<Features/>
+{featuresData.map((feature)=>(
+  <Features
+  icon={feature.icon}
+  title={feature.title}
+  texte={feature.texte}
+  />
+
+))}
+
+
 </div>
 
 </div>
